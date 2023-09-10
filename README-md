@@ -1,0 +1,109 @@
+# Frontend Mentor - QR code component solution
+
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+## Table of contents
+
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+
+## Overview
+
+### Screenshot
+
+![](./images/Screenshot%20from%202023-09-10%2022-01-40.png)
+
+Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+
+Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+
+**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Div
+- Mobile-first workflow
+
+
+### What I learned
+
+Today, I learned two essential web development skills: how to center a div element both horizontally and vertically, and how to make an image perfectly fit within a div container.
+
+## Centering a div Horizontally and Vertically:
+
+To center a div both horizontally and vertically, I discovered two effective techniques:
+
+Using Flexbox: I can employ Flexbox by wrapping my content inside a container div and applying some straightforward CSS. By setting display: flex, justify-content: center (for horizontal alignment), and align-items: center (for vertical alignment), I can effortlessly center the div content within the viewport. Optionally, I can use height: 100vh to make the container occupy the full height of the viewport.
+
+Using Grid: Alternatively, I can center a div by using CSS Grid. This method involves setting display: grid and place-items: center within the container's styles. Similar to Flexbox, this approach centers the content both horizontally and vertically within the viewport. Again, I can add height: 100vh for full viewport height if needed.
+
+## Making an Image Fit a div Container:
+
+I also learned how to make an image fit snugly within a div container:
+
+To achieve this, I can specify the desired width and height for the container, giving it the dimensions I want. Additionally, I set overflow: hidden to ensure any parts of the image that exceed the container's boundaries are hidden from view.
+
+For the image itself, I simply set max-width and max-height to 100%. This instructs the image to adapt its size to fit perfectly within the container, maintaining its original aspect ratio. I also use display: block to remove any default spacing around the image.
+
+By mastering these techniques, I can now confidently center div elements and control image resizing to fit div containers in my web development projects.
+
+### Continued development
+
+In the future I will want to use react.js and make it more responsive.
+
+
+## Author
+- Frontend Mentor - [@DBsee1](https://www.frontendmentor.io/profile/DBsee1)
+- Twitter - [@DominicBasse](https://www.twitter.com/DominicBassee)
+
+## Acknowledgment
+
+I would like to express my gratitude to everyone who has contributed to the creation and development of this website 'Frontend Mentor. Your support and collaboration have been invaluable in bringing this project to life.
+
+
+### Inspirations:
+
+I drew inspiration from various sources and individuals while working on this website. I would like to acknowledge their influence:
+
+- [Mention the sources, websites, or individuals who inspired you]
+
+I want to extend my appreciation to the creators of the tools and resources I used in building this site:
+
+- **[Tool/Resource Name]**: [Brief description of its significance]
+- **[Tool/Resource Name]**: [Brief description of its significance]
+
+### Feedback and Support:
+
+I am thankful to everyone who provided feedback, suggestions, and support during the development process. Your insights have been instrumental in enhancing the quality and functionality of this website.
+
+### Community:
+
+Last but not least, I would like to thank the Frontend Mento and design community for sharing their knowledge and expertise. Your contributions have been instrumental in my learning journey and in making this website possible.
+
+If I've inadvertently missed anyone, please accept my apologies, and know that your contributions are greatly appreciated.
+
+Thank you all for being a part of this project and for helping to make it a reality.
+
+Sincerely,
+
+[Dominic Bassee]
